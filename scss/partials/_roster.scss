@@ -97,17 +97,13 @@ input.jsxc-filter-input {
 #jsxc-roster {
   background-color: $roster-bg;
   border-left: 1px solid $roster-border-left;
-  bottom: 0;
   color: var(--jsxc-color-main-text);
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
   overflow: visible;
-  position: fixed;
-  right: 0;
-  top: 0;
   transition: right 0.5s;
-  width: 200px;
+  width: 100%;
+  height: 100%;
   z-index: 80;
 
   .jsxc-roster-hidden & {
