@@ -2,6 +2,8 @@ body.jsxc-fullscreen {
   overflow: hidden;
 
   #jsxc-roster {
+    border: 0;
+    border-top: 62px solid #2a4163;
     width: 100%;
     z-index: 50;
   }
