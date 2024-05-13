@@ -1,6 +1,7 @@
 .jsxc-menu {
   height: 100%;
   position: relative;
+  display: var(--jsxc-show-menu, block);
 
   &__button {
     align-items: flex-start;
