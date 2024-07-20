@@ -1,7 +1,6 @@
 .jsxc-menu {
   height: 100%;
   position: relative;
-  display: var(--jsxc-show-menu, block);
 
   &__button {
     align-items: flex-start;
@@ -352,4 +351,8 @@
       opacity: 0.5;
     }
   }
+}
+
+.jsxc-js-main-menu {
+  display: var(--jsxc-show-menu, block);
 }
