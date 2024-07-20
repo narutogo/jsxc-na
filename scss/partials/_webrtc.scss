@@ -329,7 +329,7 @@ div {
 
   &.jsxc-video {
     align-items: center;
-    display: flex;
+    display: var(--jsxc-show-video-button, flex);
     justify-content: center;
 
     &::before {
@@ -345,7 +345,7 @@ div {
 
   &.jsxc-audio {
     align-items: center;
-    display: flex;
+    display: var(--jsxc-show-audio-button, flex);
     justify-content: center;
 
     &::before {
