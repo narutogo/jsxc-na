@@ -2,9 +2,9 @@ import * as moment from 'moment';
 
 export default class DateTime {
    public static stringify(stamp: number, elements?: JQuery) {
-      if (navigator.language == 'zh-CN') {
-          moment.locale('zh-cn');
-      }
+      let lang = navigator.language;
+      moment.locale(lang.toLowerCase());
+     
       let momentObject = moment(stamp);
       let fromNow = momentObject.fromNow();
 
